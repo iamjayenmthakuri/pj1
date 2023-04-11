@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
 const Contact = () => {
@@ -69,6 +70,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </>
   );
 };
