@@ -1,12 +1,16 @@
-import Image from "next/image";
+import Link from "next/link";
 import { Inter } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import About from "./about";
+import Contact from "./contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
-      <div>This is Home Page</div>
-    </>
+    <Navbar>
+      <About />
+      <Contact />
+    </Navbar>
   );
 }
